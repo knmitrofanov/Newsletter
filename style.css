@@ -1,0 +1,155 @@
+.newsletter {
+    margin: auto;
+    text-align: center;
+    font-family: "Open Sans";
+    transition: width 0.7s;
+    max-width: 660px;
+}
+
+header {
+    background: #02a299;
+    border-radius: 5px 5px 0 0;
+}
+
+.logo {
+    background-image: url("./images/Layer 0.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130px;
+    margin: auto;
+}
+
+.banner-info {
+    background-image: url("./images/rolet.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.banner-text {
+    margin: 0px;
+    padding: 20px;
+    font-size: 55px;
+    font-weight: normal;
+    text-shadow: 2px 2px #02a299;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Monoton', cursive;
+    transition: all 0.7s;
+}
+
+@media (max-width: 670px) {
+    .banner-text {
+        font-size: 45px;
+    }
+}
+
+.btn {
+    background: #02a299;
+    color: white;
+    width: 50%;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 28px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 30px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #02a299;
+    color: #02a299;
+    background: #475359;
+    font-size: 30px;
+}
+
+@media (max-width: 700px) {
+    .btn {
+        width: 80%;
+    }
+}
+
+footer {
+    background-color: #475359;
+    color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-container {
+    margin-left: auto;
+}
+
+@media (max-width: 450px) {
+    .social-container {
+        margin: 0px;
+    }
+}
+
+.address,
+.social-container {
+    padding: 20px 20px 0 20px;
+}
+
+.social-btn {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    color: white;
+    transition: all 0.5s;
+}
+
+.social-btn:hover {
+    color: #02a299;
+    border-color: #02a299;
+}
+
+.pay-container {
+    margin-top: 50px;
+    padding: 0 0 20px 20px;
+}
+
+.pay-img {
+    width: 65px;
+    height: auto;
+    display: inline-block;
+}
+
+.footer-menu {
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+    margin: 5px 0 20px 20px;
+}
+
+.footer-menu li {
+    display: inline;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.footer-menu a {
+    color: #a7b1b6;
+    transition: all 0.5s;
+}
+
+.footer-menu a:hover {
+    color: #02a299;
+}
